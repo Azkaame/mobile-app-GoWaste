@@ -26,34 +26,47 @@
 <img width="811" height="756" alt="Picture3" src="https://github.com/user-attachments/assets/6d94c7d7-c3c9-410b-ade2-9c8bcb566a9f" />
 
 
-## 🎥 Demo
-https://drive.google.com/drive/folders/1tM-fpsdYTN8PHY5wTAlTZdpK32kFLU1e?usp=drive_link
 
 ## 🏗️ Project Structure
+
+``text
 GoWasteLast11-main/
-│
 ├── backend/
 │   ├── server.py
 │   ├── requirements.txt
 │   ├── tests/
+│   │   └── test_concurrent_transactions.py
 │   └── uploads/
+│       ├── gowaste_articles.json
+│       ├── seed_articles.py
+│       └── seed_users.py
 │
 ├── frontend/
 │   ├── app/
+│   │   ├── (auth)/
+│   │   ├── (tabs)/
+│   │   ├── article/
+│   │   ├── transaction/
+│   │   └── pilih-lokasi.tsx
+│   │
 │   ├── assets/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── contexts/
 │   │   ├── services/
 │   │   └── types/
+│   │
 │   ├── package.json
 │   └── app.json
 │
 ├── tests/
+│   └── __init__.py
+│
 ├── articles_export.json
 ├── gowaste_articles.json
 ├── test_result.md
-└── README.md
+├── README.md
+└── .gitignore
 
 ## 🚀 Installation
 1. Clone Repository
