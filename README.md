@@ -30,12 +30,64 @@
 https://drive.google.com/drive/folders/1tM-fpsdYTN8PHY5wTAlTZdpK32kFLU1e?usp=drive_link
 
 ## 🏗️ Project Structure
+GoWasteLast11-main/
+│
+├── backend/
+│   ├── server.py
+│   ├── requirements.txt
+│   ├── tests/
+│   └── uploads/
+│
+├── frontend/
+│   ├── app/
+│   ├── assets/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── contexts/
+│   │   ├── services/
+│   │   └── types/
+│   ├── package.json
+│   └── app.json
+│
+├── tests/
+├── articles_export.json
+├── gowaste_articles.json
+├── test_result.md
+└── README.md
 
 ## 🚀 Installation
-...
+1. Clone Repository
+git clone https://github.com/Azkaame/mobile-app-GoWaste.git
+cd mobile-app-GoWaste
+
+2. Backend Setup
+cd backend
+pip install -r requirements.txt
+Buat file .env dan sesuaikan konfigurasi MongoDB.
+
+Kemudian jalankan server:
+uvicorn server:app --reload
+
+3. Frontend Setup
+Buka terminal baru:
+cd frontend
+npm install
+npx expo start
+
+⚙️ Environment Variables
+Backend
+MONGO_URL=your_mongodb_connection
+DB_NAME=gowaste
+
+⚙️ Environment Variables
+Backend
+MONGO_URL=your_mongodb_connection
+DB_NAME=gowaste
 
 ## 🧪 Testing
-...
+
+https://github.com/user-attachments/assets/174c5c5c-4468-457b-bab6-07338d08a01e
+
 
 ## 👨‍💻 Author
 Mohamad Fawaid Aska
