@@ -29,7 +29,6 @@
 
 ## 🏗️ Project Structure
 
-``text
 GoWasteLast11-main/
 ├── backend/
 │   ├── server.py
