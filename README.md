@@ -29,7 +29,9 @@
 
 ## 🏗️ Project Structure
 
+```text
 GoWasteLast11-main/
+│
 ├── backend/
 │   ├── server.py
 │   ├── requirements.txt
@@ -66,6 +68,7 @@ GoWasteLast11-main/
 ├── test_result.md
 ├── README.md
 └── .gitignore
+```
 
 ## 🚀 Installation
 1. Clone Repository
